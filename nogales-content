@@ -1,0 +1,10 @@
+/content
+  /food/az.json         /food/sonora.json
+  /landmarks/az.json    /landmarks/sonora.json
+  /hangouts/az.json     /hangouts/sonora.json
+  /careers/az.json      /careers/sonora.json
+  /stories/az.json      /stories/sonora.json
+  /travel_tips/shared.json
+  /shops/az.json        /shops/sonora.json
+/images  (optional, webp/jpg)
+README.md
