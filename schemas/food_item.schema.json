@@ -1,0 +1,17 @@
+{
+  "$id": "schemas/food_item.schema.json",
+  "type": "object",
+  "required": ["name","short_description","cuisine_tags","address","hours_summary","price_level","must_try"],
+  "properties": {
+    "name": {"type":"string"},
+    "short_description":{"type":"string"},
+    "cuisine_tags":{"type":"array","items":{"type":"string"}},
+    "address":{"type":"string"},
+    "hours_summary":{"type":"string"},
+    "price_level":{"type":"string","enum":["$","$$","$$$"]},
+    "must_try":{"type":"array","items":{"type":"string"}},
+    "photo_url":{"type":["string","null"]},
+    "website_or_menu_url":{"type":["string","null"]}
+  },
+  "additionalProperties": false
+}
